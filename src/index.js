@@ -4,10 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import FormClass from "./FormClass/FormClass"
+import FromFunction from './FormFunction/FromFunction';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
-    <FormClass />
+    <FromFunction />
   
 );
 
